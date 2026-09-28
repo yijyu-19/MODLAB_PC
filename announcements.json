@@ -11,7 +11,8 @@
       "priority": 90,
       "title": "实验室PC版 4.0.0 发布",
       "body": "实验室PC版4.0.0已发布。\n本次更新主要内容如下：\n\n1.升级引擎、UI系统与动画系统，优化了运行速度\n2.增加了spine动画、语音、文本MOD的预览功能\n3.增加了经典MOD与移动端MOD互相转换功能（建议搭配MUMU管理器使用）\n4.增加了部分作者专属功能\n5.添加了自动更新与公告通知功能\n6.新增雀魂支持，详见readme特别鸣谢部分\n7.修复了一个BUG，该BUG曾导致MOD无故失效\n\n感谢各位对MODLAB的支持。",
-      "link": "https://github.com/yijyu-19/MODLAB_PC/releases/latest"
+      "link": "https://github.com/yijyu-19/MODLAB_PC/releases/latest",
+      "force_ack": true
     },
     {
       "id": "20260927-warning-1",
