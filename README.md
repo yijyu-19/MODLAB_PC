@@ -24,6 +24,8 @@ https://github.com/laoxinH/Arknight_AB_Auto_Package
 
 https://github.com/Avenshy/MajsoulMax
 
+https://github.com/MuteApo/AzurLaneTachieHelper
+
 以上项目完全免费、开源，如果您为此付费，说明您被骗了！
 
 本工具目前仅有一个不影响正常使用的象征性赞助功能（主要是用来测试一个登录接口，功能仅为允许自定义上传背景图，且此功能将在下一次更新后公开使用）
@@ -32,7 +34,15 @@ https://github.com/Avenshy/MajsoulMax
 
 MOD实验室——管理你的PC端二游MOD
 
-目前暂只支持明日方舟、雀魂。
+目前支持以下游戏：
+
+明日方舟（仅PC端）
+
+雀魂（仅PC端）
+
+碧蓝航线
+
+欲都孤儿
 
 可以提供PC端的MOD安装功能，并提供MOD的自动修复-
 
