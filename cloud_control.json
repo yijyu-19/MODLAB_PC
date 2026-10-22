@@ -1,0 +1,7 @@
+{
+  "min_version": "4.4.2",
+  "deadline": "2026-12-31T23:59:59+08:00",
+  "message": "",
+  "url": "https://github.com/yijyu-19/MODLAB_PC/releases/latest",
+  "说明": "由于2026.10.21晚的全球性CA证书失信问题，4.4.2版本删除了受影响的证书。目前低于此版本的软件均有此CA证书隐患，请在2027年前及时更新。"
+}
