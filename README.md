@@ -81,3 +81,9 @@ PCL自动降版本（临时性自用功能，无MOD管理）
 在管理界面右键MOD即可打开菜单，在菜单中可删除已安装的MOD
 
 感谢您的使用，如果有什么问题，欢迎在本项目的ISSUE区发表。
+
+【配置模板】
+
+仓库里的 `game/*/gameconfig.ini` 是空白模板：`exe` / `launcher` 不写本机绝对路径。发布前由 `build_release.py` 与 `rebuild_zip_only.py` 调用 `tools/sanitize_release_gameconfigs.py`，PyInstaller spec 的 datas 应使用清洗后的这些文件。
+
+依赖目录对外名称为 `modern_dependency`。已安装的历史目录名仍可被读取，新建目录只用现代拼写。登录态见 `core/access_mode.py`：发行默认是无登录全权限（`open`），与登录全权限、访客配额并列。`minecraft` 与欲都孤儿标记为 `tool_only`。
