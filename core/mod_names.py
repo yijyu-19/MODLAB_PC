@@ -75,6 +75,21 @@ def form_token(raw_type: object) -> str:
     return ""
 
 
+def normalize_install_type(value: object) -> str:
+    """安装与转换用的形态 id：classical / modern / mobile。未知返回空串。
+
+    历史拼写 ``morden`` / ``morden_mod`` 读入后输出 ``modern``。
+    """
+    token = _token(value)
+    if token in {"classical", CLASSICAL_MOD_CLASS}:
+        return "classical"
+    if token in {"mobile", MOBILE_MOD_CLASS}:
+        return "mobile"
+    if token in {"modern", "morden", LEGACY_MOD_CLASS}:
+        return "modern"
+    return ""
+
+
 def canonical_mod_class(raw_class: object) -> str:
     value = _token(raw_class)
     if value in {LEGACY_MOD_CLASS, "morden", "modern"}:
